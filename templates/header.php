@@ -45,32 +45,32 @@ $fontImport = direction("@import url('https://fonts.googleapis.com/css2?family=S
     <meta name="keywords" content="<?php echo $settingsOgDescription ?>">
     <link rel="shortcut icon" href="<?php echo encryptImage("logos/{$settingslogo}") ?>" type="image/x-icon">
     <link rel="apple-touch-icon" href="<?php echo encryptImage("logos/{$settingslogo}") ?>">
-    <link href="/css/bootstrap.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
-    <link href="/css/owl.carousel.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
-    <link href="/css/bootstrap-select.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
-    <link href="/css/flag-icon.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
-    <link href="/css/jquery-ui.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
-    <link href="/css/custome.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
-    <link href="/css/responsive.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
-    <link href="/css/font-awesome.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
-    <link href="/css/animate.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
-	<link href="/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
+    <link href="css/owl.carousel.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
+    <link href="css/bootstrap-select.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
+    <link href="css/flag-icon.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
+    <link href="css/jquery-ui.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
+    <link href="css/custome.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
+    <link href="css/responsive.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
+    <link href="css/font-awesome.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
+    <link href="css/animate.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
+	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 	<?php echo $fontLink ?>
-	<script src="/js/main.js?y=<?php echo md5(time()) ?>"></script>
-    <script src="/js/js.js?y=<?php echo md5(time()) ?>"></script>
+	<script src="js/main.js?y=<?php echo md5(time()) ?>"></script>
+    <script src="js/js.js?y=<?php echo md5(time()) ?>"></script>
 	<link rel="manifest" href="manifest.json">
-    <script src="/js/jquery-3.3.1.slim.min.js" ></script>
-    <script src="/js/jquery-1.11.1.js"></script>
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/cookie.js"></script>
-    <script src="/js/jquery-ui.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/wow.min.js"></script>
-    <script src="/js/owl.carousel.min.js"></script>
-    <script src="/js/bootstrap-select.min.js"></script>
-	<script src="/js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="https://kit.fontawesome.com/123faab6fe.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 	<?php
