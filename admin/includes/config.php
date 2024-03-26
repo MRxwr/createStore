@@ -11,7 +11,7 @@ $sql = "SET CHARACTER SET utf8mb4";
 $dbconnect->query($sql);
 
 if( !isset($_GET["storeTitle"]) || empty($_GET["storeTitle"]) ){
-    header("LOCATION: new.createstore.link");die();
+    header("LOCATION: https://new.createstore.link");die();
 }
 
 ?>
