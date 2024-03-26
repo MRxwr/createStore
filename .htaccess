@@ -4,10 +4,10 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Check if URL contains /
-RewriteCond %{REQUEST_URI} /
-# If it does, capture anything after / and pass it as a $_GET parameter
-RewriteRule ^([^/]+)/([^/]+.*)$ index.php?storeTitle=$1 [L,QSA]
+# Check if URL contains a second /
+RewriteCond %{REQUEST_URI} ^/([^/]+)/
+# If it does, capture anything after the first / and pass it as a $_GET parameter
+RewriteRule ^[^/]+/(.*)$ index.php?storeTitle=$1 [L,QSA]
 
 # If / is not found in the URL, redirect to error page
 RewriteRule ^ - [E=error:1]
