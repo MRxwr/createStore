@@ -1,4 +1,9 @@
 <?php
+$check = selectDB("settings","`title` LIKE '%{$_GET["storeTitle"]}%'");
+if( !isset($check[0]["id"]) ){
+	header("LOCATION: new.createstore.link");die();
+}
+
 if ( isset($_COOKIE[$cookieSession."Store"]) ){
 	$svdva = $_COOKIE[$cookieSession."Store"];
 	if ( $user = selectDB("users","`keepMeAlive` LIKE '%{$svdva}%'") ){

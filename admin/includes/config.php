@@ -12,11 +12,6 @@ $dbconnect->query($sql);
 
 if( !isset($_GET["storeTitle"]) || empty($_GET["storeTitle"]) ){
     header("LOCATION: new.createstore.link");die();
-}else{
-    $check = selectDB("settings","`title` LIKE '%{$_GET["storeTitle"]}%'");
-    if( !isset($check[0]["id"]) ){
-        header("LOCATION: new.createstore.link");die();
-    }
 }
 
 ?>
