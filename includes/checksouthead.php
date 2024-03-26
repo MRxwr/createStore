@@ -1,7 +1,7 @@
 <?php
-$check = selectDB("settings","`title` LIKE '%{$_GET["storeTitle"]}%'");
+$check = selectDB("settings","`link` LIKE '%{$_GET["storeTitle"]}%'");
 if( !isset($check[0]["id"]) ){
-	header("LOCATION: new.createstore.link");die();
+	header("LOCATION: https://new.createstore.link");die();
 }
 
 if ( isset($_COOKIE[$cookieSession."Store"]) ){
