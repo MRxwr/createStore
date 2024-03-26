@@ -4,9 +4,6 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Exclude requests for specific file types from the rewrite rule
-RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|gif)$
-
 # Capture anything after the first / and pass it as a $_GET parameter
 RewriteRule ^([^/]+)/?$ index.php?storeTitle=$1 [L,QSA]
 
