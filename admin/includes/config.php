@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "store";
+$username = "u955967339_multiStoreUser";
+$password = "N@b$90949089";
+$dbname = "u955967339_multiStoreDB";
 $dbconnect = new MySQLi($servername,$username,$password,$dbname);
 if ( $dbconnect->connect_error ){
 die("Connection Failed: " .$dbconnect->connect_error );
