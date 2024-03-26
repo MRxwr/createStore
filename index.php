@@ -1,7 +1,3 @@
-<?php
-print_r($_GET);die();
-?>
-
 <?php session_start(); ?>
 <?php require 'templates/header.php'; ?>
 <?php require 'templates/saveOrder.php'; ?>
