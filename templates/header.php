@@ -45,7 +45,7 @@ $fontImport = direction("@import url('https://fonts.googleapis.com/css2?family=S
     <meta name="keywords" content="<?php echo $settingsOgDescription ?>">
     <link rel="shortcut icon" href="<?php echo encryptImage("logos/{$settingslogo}") ?>" type="image/x-icon">
     <link rel="apple-touch-icon" href="<?php echo encryptImage("logos/{$settingslogo}") ?>">
-    <link href="css/bootstrap.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
+    <link href="app/css/bootstrap.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
     <link href="css/owl.carousel.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
     <link href="css/bootstrap-select.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
     <link href="css/flag-icon.min.css?<?php echo randLetter() . "=" . rand(0,9) ?>" rel="stylesheet">
