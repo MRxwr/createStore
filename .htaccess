@@ -3,9 +3,8 @@ RewriteEngine On
 # Exclude existing files or directories from the rewrite rule
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-# Exclude CSS files from rewriting
-RewriteCond %{REQUEST_URI} !\.(css)$
-
+# Exclude URLs with query parameters
+RewriteCond %{QUERY_STRING} ^$
 # Check if URL contains /
 RewriteCond %{REQUEST_URI} /
 # If it does, capture anything after / and pass it as a $_GET parameter
