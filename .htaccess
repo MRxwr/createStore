@@ -3,6 +3,8 @@ RewriteEngine On
 # Exclude existing files or directories from the rewrite rule
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+# Exclude CSS files from rewriting
+RewriteCond %{REQUEST_URI} !\.(css)$
 
 # Check if URL contains /
 RewriteCond %{REQUEST_URI} /
